@@ -1,0 +1,39 @@
+# Cabal build artifacts
+/dist-newstyle/
+/cabal.project.local
+/cabal.project.local~*
+/dist/
+/*.dist-newstyle-log
+
+# Stack (if you ever use it)
+/.stack-work/
+
+# GHCi history and other user files
+.ghc.environment.*
+.ghci
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipkg
+
+# VSCode specific
+.vscode/
+*.code-workspace
+
+# MacOS metadata
+.DS_Store
+
+# Optional: logs or temp files
+*.log
+*.tmp
+
+# Remove any accidental editor swap or backup files
+*~
+*.swp
+*.swo
